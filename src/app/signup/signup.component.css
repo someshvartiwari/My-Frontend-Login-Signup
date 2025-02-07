@@ -1,0 +1,19 @@
+.position-relative {
+  position: relative; /* Ensure the span is positioned relative to the input box */
+}
+
+.eye-icon {
+  position: absolute;
+  right: 10px; /* Adjust to place the icon closer to the input's right border */
+  top: 50%;
+  transform: translateY(-50%);
+  cursor: pointer;
+  font-size: 18px; /* Adjust icon size for better visibility */
+  color: #224B7F; /* Icon color */
+}
+
+.form-control {
+  padding-right: 40px; /* Add padding to prevent text overlap with the icon */
+}
+
+
